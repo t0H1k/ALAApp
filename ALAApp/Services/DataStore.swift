@@ -11,8 +11,7 @@ class DataStore {
     let chapter = [
         "Глава 13",
         "Глава 14",
-        "Глава 15",
-        "Глава 16"
+        "Глава 15"
     ] // Главы
     
     let subChapter = [
