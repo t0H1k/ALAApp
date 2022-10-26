@@ -31,6 +31,7 @@ struct SubChapterBook {
     
     let subChapter: String
     let nameSubChapter: String
+    let detailChapter: String  // @Добавил текст главы (попытка не пытка)
     
     var fullNameOfSubChapter: String {
         "\(subChapter) \(nameSubChapter)"
@@ -43,6 +44,7 @@ struct SubChapterBook {
         
         let subChapter = chapterBook.subChapter
         let nameSubChapter = chapterBook.nameSubChapter
+        let detailChapter = chapterBook.textOfDetailChapter14 // и сюда
         
         var subChapters: [SubChapterBook] = []
         
@@ -50,7 +52,8 @@ struct SubChapterBook {
             subChapters.append(
                 SubChapterBook(
                     subChapter: subChapter[data],
-                    nameSubChapter: nameSubChapter[data]
+                    nameSubChapter: nameSubChapter[data],
+                    detailChapter: detailChapter[data] // и сюда
                 )
             )
         }

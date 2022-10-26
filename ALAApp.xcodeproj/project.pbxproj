@@ -11,6 +11,7 @@
 		835405742909278300231287 /* TrainingMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405732909278300231287 /* TrainingMaterial.swift */; };
 		835405762909279D00231287 /* SubChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405752909279D00231287 /* SubChapterViewController.swift */; };
 		83540578290927BA00231287 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83540577290927BA00231287 /* ChapterViewController.swift */; };
+		8EB471932909C84A00811312 /* DetailsSubChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */; };
 		8ECAC7C529088483006ED408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECAC7C429088483006ED408 /* AppDelegate.swift */; };
 		8ECAC7C729088483006ED408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECAC7C629088483006ED408 /* SceneDelegate.swift */; };
 		8ECAC7CC29088483006ED408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECAC7CA29088483006ED408 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		835405732909278300231287 /* TrainingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMaterial.swift; sourceTree = "<group>"; };
 		835405752909279D00231287 /* SubChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubChapterViewController.swift; sourceTree = "<group>"; };
 		83540577290927BA00231287 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
+		8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSubChapterViewController.swift; sourceTree = "<group>"; };
 		8ECAC7C129088483006ED408 /* ALAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECAC7C429088483006ED408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ECAC7C629088483006ED408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				83540577290927BA00231287 /* ChapterViewController.swift */,
 				835405752909279D00231287 /* SubChapterViewController.swift */,
+				8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB471932909C84A00811312 /* DetailsSubChapterViewController.swift in Sources */,
 				835405742909278300231287 /* TrainingMaterial.swift in Sources */,
 				8ECAC7C529088483006ED408 /* AppDelegate.swift in Sources */,
 				835405722909266B00231287 /* DataStore.swift in Sources */,
