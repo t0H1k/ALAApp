@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class SubChapterViewController: UITableViewController {
     
     let subChapter = SubChapterBook.getSubChapter()
 
