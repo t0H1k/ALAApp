@@ -25,7 +25,6 @@ struct ChapterBook {
         }
         return chapters
     }
-    
 }
 
 struct SubChapterBook {
