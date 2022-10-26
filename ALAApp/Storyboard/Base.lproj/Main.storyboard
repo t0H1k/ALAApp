@@ -32,19 +32,32 @@
                     <view key="view" contentMode="scaleToFill" id="5FM-0F-aYA">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uay-Yl-Z5q">
+                                <rect key="frame" x="20" y="120.99999999999999" width="350" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IWS-RG-Dj3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Uay-Yl-Z5q" firstAttribute="top" secondItem="IWS-RG-Dj3" secondAttribute="top" constant="30" id="XbK-if-cit"/>
+                            <constraint firstItem="Uay-Yl-Z5q" firstAttribute="leading" secondItem="IWS-RG-Dj3" secondAttribute="leading" constant="20" id="foK-L1-88Q"/>
+                            <constraint firstItem="IWS-RG-Dj3" firstAttribute="trailing" secondItem="Uay-Yl-Z5q" secondAttribute="trailing" constant="20" id="gZP-ha-TqY"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Конспект" image="pencil" catalog="system" id="xSB-cH-reg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2F-zq-ZPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2905" y="-327"/>
+            <point key="canvasLocation" x="2903.0769230769229" y="-327.01421800947867"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="E1d-7W-iFV">
             <objects>
-                <tableViewController id="e8K-Gp-EcU" customClass="TableViewController" customModule="BookTeam" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="e8K-Gp-EcU" customClass="TableViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="6wd-7J-2B6">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +95,7 @@
         <!--Root View Controller-->
         <scene sceneID="han-cU-mF0">
             <objects>
-                <tableViewController id="0zA-6K-gXb" customClass="MainTableViewController" customModule="BookTeam" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="0zA-6K-gXb" customClass="MainTableViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="juP-TZ-58J">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
