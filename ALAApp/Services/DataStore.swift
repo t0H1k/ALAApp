@@ -24,8 +24,7 @@ class DataStore {
         "14.7",
         "14.8",
         "14.9",
-        "15.1",
-        "15.2"
+        "15.1"
     ] // Подглавы
     
     let nameSubChapter = [
