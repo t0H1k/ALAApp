@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTableViewController: UITableViewController {
+class ChapterViewController: UITableViewController {
     
     let chapterBook = ChapterBook.getChapter()
 
@@ -29,6 +29,10 @@ class MainTableViewController: UITableViewController {
         content.text = chapter.chapter
         cell.contentConfiguration = content
         return cell
+    }
+    
+    @IBAction func backButton(_ sender: Any) {
+        dismiss(animated: true)
     }
     /*
     // Override to support conditional editing of the table view.
