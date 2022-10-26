@@ -27,6 +27,7 @@ class DataStore {
         "564"
     ] // Подглавы
     
+    
     let nameSubChapter = [
         "Метод map(_:)",
         "Метод mapValues(_:)",
