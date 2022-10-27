@@ -9,7 +9,7 @@ import UIKit
 
 class DetailsSubChapterViewController: UIViewController {
     
-//    var detailChapter = ???
+    let content = Content.getContent()
     
     // @Айтолкун 
     // этого красавца нам бы связать с экраном куда передаем конспект
