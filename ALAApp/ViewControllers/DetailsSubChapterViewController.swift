@@ -9,17 +9,12 @@ import UIKit
 
 class DetailsSubChapterViewController: UIViewController {
     
-//    var detailChapter = ???
-    
-    // @Айтолкун 
-    // этого красавца нам бы связать с экраном куда передаем конспект
-    // сюда же надо протянуть лейбл из "конспекта"
-    
+
+    @IBOutlet var descriptionLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //        title = detailChapter.subChapter
-        //        лейбл.text = "\(detailChapter.detailchapter)"
+//        title = detailChapter.subChapter
+//        descriptionLabel.text = "\(detailChapter.detailchapter)"
     }
 }
