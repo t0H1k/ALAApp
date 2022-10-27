@@ -9,6 +9,8 @@ import UIKit
 
 class DetailsSubChapterViewController: UIViewController {
     
+
+    @IBOutlet var descriptionLabel: UILabel!
     let content = Content.getContent()
     
     // @Айтолкун 
@@ -18,8 +20,7 @@ class DetailsSubChapterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //        title = detailChapter.subChapter
-        //        лейбл.text = "\(detailChapter.detailchapter)"
+//        title = detailChapter.subChapter
+//        descriptionLabel.text = "\(detailChapter.detailchapter)"
     }
 }

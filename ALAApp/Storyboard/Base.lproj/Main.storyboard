@@ -23,12 +23,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="25p-4U-lrp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3546" y="281"/>
+            <point key="canvasLocation" x="3545" y="338"/>
         </scene>
         <!--Конспект-->
         <scene sceneID="gWg-Lf-PPd">
             <objects>
-                <viewController id="cks-uO-kfb" sceneMemberID="viewController">
+                <viewController id="cks-uO-kfb" customClass="DetailsSubChapterViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WdY-5c-SxS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,10 +49,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Конспект" image="pencil" catalog="system" id="BBs-cV-we1"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="vB7-uZ-Szo" id="W1c-qA-wPX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NvD-kc-w8h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3546" y="-327"/>
+            <point key="canvasLocation" x="3545" y="-412"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="5p2-jf-NFh">
