@@ -11,6 +11,12 @@ class DetailsSubChapterViewController: UIViewController {
     
 
     @IBOutlet var descriptionLabel: UILabel!
+    let content = Content.getContent()
+    
+    // @Айтолкун 
+    // этого красавца нам бы связать с экраном куда передаем конспект
+    // сюда же надо протянуть лейбл из "конспекта"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
