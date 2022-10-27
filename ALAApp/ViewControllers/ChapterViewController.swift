@@ -9,7 +9,7 @@ import UIKit
 
 class ChapterViewController: UITableViewController {
     
-    let chapterBook = ChapterBook.getChapter()
+    let chapterBook = Chapter.getChapter()
 
     override func viewDidLoad() {
         super.viewDidLoad()
