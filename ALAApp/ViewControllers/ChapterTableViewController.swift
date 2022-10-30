@@ -13,6 +13,7 @@ class ChapterTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("scsc")
 
     }
     
