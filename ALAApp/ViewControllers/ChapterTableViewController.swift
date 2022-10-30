@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChapterViewController: UITableViewController {
+class ChapterTableViewController: UITableViewController {
     
     let chapterBook = Book.getBook()
 
@@ -37,6 +37,14 @@ class ChapterViewController: UITableViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let indexPath = self.tableView.indexPathForSelectedRow
         
+        guard let selectedRow = indexPath?.row else { return }
+        
+        let selectedChapter = chapterBook[selectedRow]
+        
+        let subChapterTVC = segue.destination as? SubChapterTableViewController
+        
+        subChapterTVC?.subChapter = selectedChapter.subShapter
     }
 }
