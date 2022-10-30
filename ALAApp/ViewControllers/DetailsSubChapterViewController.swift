@@ -12,7 +12,7 @@ class DetailsSubChapterViewController: UIViewController {
 
     @IBOutlet var descriptionLabel: UILabel!
     
-    let content = Content.getContent()
+    //let content = Content.getContent()
     
     
     override func viewDidLoad() {

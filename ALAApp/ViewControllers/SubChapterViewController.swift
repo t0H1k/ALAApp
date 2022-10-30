@@ -9,7 +9,7 @@ import UIKit
 
 class SubChapterViewController: UITableViewController {
     
-    let subChapter = SubChapter.getSubChapter()
+    //let subChapter = SubChapter.getSubChapter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,15 +19,15 @@ class SubChapterViewController: UITableViewController {
     
     // MARK: - Table view data source
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return subChapter.count
-    }
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        //return subChapter.count
+//    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "subChapter", for: indexPath)
-        let subChapter = subChapter[indexPath.row]
+        //let subChapter = subChapter[indexPath.row]
         var content = cell.defaultContentConfiguration()
-        content.text = subChapter.subChapter
+        //content.text = subChapter.subChapter
         cell.contentConfiguration = content
         return cell
     }
