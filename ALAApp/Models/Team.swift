@@ -7,7 +7,7 @@
 
 struct Team {
     
-    let aitolkun = "Айтолкун Анарбекова"
+    let aitolkun = " Анарбекова"
     let leonid = "Леонид Горбунов"
     let anton = "Антон Боев"
     let aitolkunPhoto = "Aitolkun"
