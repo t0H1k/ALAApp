@@ -19,6 +19,7 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addVerticalGradientLayer()
         navigationItem.hidesBackButton = true
         definionLabel.text = "Вы ответили верно на \(countCorrectAnswer) из \(Question.getQuestions().count) вопросов"
     }
