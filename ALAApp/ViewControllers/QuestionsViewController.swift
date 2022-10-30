@@ -46,22 +46,12 @@ class QuestionsViewController: UIViewController {
     }
     
     @IBAction func radioButtonSelected(_ sender: UIButton) {
+        radioButtons.forEach{$0.isSelected = false}
         
-        if sender.tag == 0 {
-            radioButtons[0].isSelected = true
-            radioButtons[1].isSelected = false
-            radioButtons[2].isSelected = false
-            
-        } else if sender.tag == 1 {
-            radioButtons[0].isSelected = false
-            radioButtons[1].isSelected = true
-            radioButtons[2].isSelected = false
-            
-        }
-        else {
-            radioButtons[0].isSelected = false
-            radioButtons[1].isSelected = false
-            radioButtons[2].isSelected = true
+        for (index, radioButton) in radioButtons.enumerated() {
+            if index == sender.tag {
+                radioButton.isSelected = true
+            }
         }
     }
     
@@ -152,8 +142,6 @@ extension QuestionsViewController {
             updateUI()
             return
         }
-        print(answersChoosen)
-       
         performSegue(withIdentifier: "showResult", sender: nil)
     }
     
