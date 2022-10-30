@@ -24,7 +24,6 @@
 		8ECAC7CC29088483006ED408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECAC7CA29088483006ED408 /* Main.storyboard */; };
 		8ECAC7CE29088486006ED408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECAC7CD29088486006ED408 /* Assets.xcassets */; };
 		8ECAC7D129088486006ED408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECAC7CF29088486006ED408 /* LaunchScreen.storyboard */; };
-		8EFFF19D290E8CE50091D4B9 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFF19C290E8CE50091D4B9 /* Team.swift */; };
 		8EFFF19F290E8CFB0091D4B9 /* TeamInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFF19E290E8CFB0091D4B9 /* TeamInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		8ECAC7CD29088486006ED408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ECAC7D029088486006ED408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ECAC7D229088486006ED408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EFFF19C290E8CE50091D4B9 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		8EFFF19E290E8CFB0091D4B9 /* TeamInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				835405732909278300231287 /* TrainingMaterial.swift */,
-				8EFFF19C290E8CE50091D4B9 /* Team.swift */,
 				83DEB80A290BDBAF00283AE9 /* Questions.swift */,
 			);
 			path = Models;
@@ -238,7 +235,6 @@
 				835405722909266B00231287 /* DataStore.swift in Sources */,
 				835405762909279D00231287 /* SubChapterTableViewController.swift in Sources */,
 				83540578290927BA00231287 /* ChapterTableViewController.swift in Sources */,
-				8EFFF19D290E8CE50091D4B9 /* Team.swift in Sources */,
 				8ECAC7C729088483006ED408 /* SceneDelegate.swift in Sources */,
 				83DEB809290ABEDD00283AE9 /* ResultViewController.swift in Sources */,
 			);

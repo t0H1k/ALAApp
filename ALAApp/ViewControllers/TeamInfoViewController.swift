@@ -31,8 +31,6 @@ class TeamInfoViewController: UIViewController {
     @IBOutlet var aitolkunLabel: UILabel!
     @IBOutlet var leonidLabel: UILabel!
     @IBOutlet var antonLabel: UILabel!
-//
-//    var team: Team!
     
     override func viewDidLoad() {
         super.viewDidLoad()
