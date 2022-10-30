@@ -12,18 +12,19 @@ class TeamInfoViewController: UIViewController {
     @IBOutlet var aitolkunPhoto: UIImageView! {
         didSet {
             aitolkunPhoto.layer.cornerRadius = aitolkunPhoto.frame.height / 2
+            
         }
     }
     
     @IBOutlet var leonidPhoto: UIImageView! {
         didSet {
-            leonidPhoto.layer.cornerRadius = leonidPhoto.frame.height / 2
+            antonPhoto.layer.cornerRadius = leonidPhoto.frame.height / 2
         }
     }
     
     @IBOutlet var antonPhoto: UIImageView! {
         didSet {
-            antonPhoto.layer.cornerRadius = antonPhoto.frame.height / 2
+            leonidPhoto.layer.cornerRadius = antonPhoto.frame.height / 2
         }
     }
     
