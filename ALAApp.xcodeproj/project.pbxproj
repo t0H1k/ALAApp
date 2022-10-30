@@ -11,6 +11,9 @@
 		835405742909278300231287 /* TrainingMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405732909278300231287 /* TrainingMaterial.swift */; };
 		835405762909279D00231287 /* SubChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405752909279D00231287 /* SubChapterViewController.swift */; };
 		83540578290927BA00231287 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83540577290927BA00231287 /* ChapterViewController.swift */; };
+		83DEB807290ABECD00283AE9 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB806290ABECD00283AE9 /* QuestionsViewController.swift */; };
+		83DEB809290ABEDD00283AE9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB808290ABEDD00283AE9 /* ResultViewController.swift */; };
+		83DEB80B290BDBAF00283AE9 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB80A290BDBAF00283AE9 /* Questions.swift */; };
 		8EB471932909C84A00811312 /* DetailsSubChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */; };
 		8ECAC7C529088483006ED408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECAC7C429088483006ED408 /* AppDelegate.swift */; };
 		8ECAC7C729088483006ED408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECAC7C629088483006ED408 /* SceneDelegate.swift */; };
@@ -24,6 +27,9 @@
 		835405732909278300231287 /* TrainingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMaterial.swift; sourceTree = "<group>"; };
 		835405752909279D00231287 /* SubChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubChapterViewController.swift; sourceTree = "<group>"; };
 		83540577290927BA00231287 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
+		83DEB806290ABECD00283AE9 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		83DEB808290ABEDD00283AE9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		83DEB80A290BDBAF00283AE9 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSubChapterViewController.swift; sourceTree = "<group>"; };
 		8ECAC7C129088483006ED408 /* ALAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECAC7C429088483006ED408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +76,8 @@
 				83540577290927BA00231287 /* ChapterViewController.swift */,
 				835405752909279D00231287 /* SubChapterViewController.swift */,
 				8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */,
+				83DEB806290ABECD00283AE9 /* QuestionsViewController.swift */,
+				83DEB808290ABEDD00283AE9 /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -86,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				835405732909278300231287 /* TrainingMaterial.swift */,
+				83DEB80A290BDBAF00283AE9 /* Questions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,11 +201,14 @@
 			files = (
 				8EB471932909C84A00811312 /* DetailsSubChapterViewController.swift in Sources */,
 				835405742909278300231287 /* TrainingMaterial.swift in Sources */,
+				83DEB807290ABECD00283AE9 /* QuestionsViewController.swift in Sources */,
+				83DEB80B290BDBAF00283AE9 /* Questions.swift in Sources */,
 				8ECAC7C529088483006ED408 /* AppDelegate.swift in Sources */,
 				835405722909266B00231287 /* DataStore.swift in Sources */,
 				835405762909279D00231287 /* SubChapterViewController.swift in Sources */,
 				83540578290927BA00231287 /* ChapterViewController.swift in Sources */,
 				8ECAC7C729088483006ED408 /* SceneDelegate.swift in Sources */,
+				83DEB809290ABEDD00283AE9 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
