@@ -27,11 +27,11 @@ class TeamInfoViewController: UIViewController {
         }
     }
     
-    var team: Team!
-    
     @IBOutlet var aitolkunLabel: UILabel!
     @IBOutlet var leonidLabel: UILabel!
     @IBOutlet var antonLabel: UILabel!
+    
+    var team: Team!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +42,5 @@ class TeamInfoViewController: UIViewController {
         aitolkunLabel.text = team.aitolkun
         leonidLabel.text = team.leonid
         antonLabel.text = team.anton
-
     }
 }
