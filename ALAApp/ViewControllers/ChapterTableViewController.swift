@@ -13,7 +13,6 @@ class ChapterTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("scsc")
 
     }
     
@@ -29,14 +28,18 @@ class ChapterTableViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         content.text = chapter.chapter
         cell.contentConfiguration = content
+        
         return cell
+    
     }
     
     @IBAction func backButton(_ sender: Any) {
         dismiss(animated: true)
     }
     
+    
     // MARK: - Navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let indexPath = self.tableView.indexPathForSelectedRow
         

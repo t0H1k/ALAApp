@@ -26,10 +26,8 @@ class SubChapterTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "subChapter", for: indexPath)
         
         let subChapter = subChapter[indexPath.row]
-        //var content = cell.defaultContentConfiguration()
         
         cell.textLabel?.text = subChapter
-        //cell.contentConfiguration = content
         return cell
     }
 
@@ -38,12 +36,4 @@ class SubChapterTableViewController: UITableViewController {
         dismiss(animated: true)
     }
     
-    // MARK: - Navigation
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let indexPath = tableView.indexPathForSelectedRow {
-//            guard let detailVC = segue.destination as? DetailsSubChapterViewController else { return }
-//            detailVC.detailChapter = subChapter[indexPath.row]
-//        }
-//    }
 }
