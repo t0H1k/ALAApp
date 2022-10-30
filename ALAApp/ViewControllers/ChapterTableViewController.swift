@@ -10,6 +10,7 @@ import UIKit
 class ChapterTableViewController: UITableViewController {
     
     let chapterBook = Book.getBook()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +20,8 @@ class ChapterTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return chapterBook.count
+        chapterBook.count
+        
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -28,9 +30,8 @@ class ChapterTableViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         content.text = chapter.chapter
         cell.contentConfiguration = content
-        
+
         return cell
-    
     }
     
     @IBAction func backButton(_ sender: Any) {
@@ -42,13 +43,14 @@ class ChapterTableViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let indexPath = self.tableView.indexPathForSelectedRow
-        
+
         guard let selectedRow = indexPath?.row else { return }
-        
+
         let selectedChapter = chapterBook[selectedRow]
-        
+
         let subChapterTVC = segue.destination as? SubChapterTableViewController
+
+        subChapterTVC?.subChapter = selectedChapter.subChapter
         
-        subChapterTVC?.subChapter = selectedChapter.subShapter
     }
 }

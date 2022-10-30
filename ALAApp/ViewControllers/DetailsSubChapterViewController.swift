@@ -8,14 +8,16 @@
 import UIKit
 
 class DetailsSubChapterViewController: UIViewController {
-
+    
     @IBOutlet var descriptionLabel: UILabel!
     
-    //let content = Content.getContent()
+    var content: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        title = detailChapter.subChapter
-//        descriptionLabel.text = "\(detailChapter.detailchapter)"
+    
+        descriptionLabel.text = "\(content)" //нерабочий вариант
+        //либо через цикл делать
+        
     }
 }

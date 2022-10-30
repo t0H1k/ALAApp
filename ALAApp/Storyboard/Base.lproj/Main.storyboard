@@ -901,7 +901,7 @@
                 <navigationController id="FI4-be-g1i" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="vVC-ws-t9o"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="62b-Nc-I3h">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -912,10 +912,10 @@
             </objects>
             <point key="canvasLocation" x="-916" y="-22"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="tm6-Qs-qdH">
             <objects>
-                <tabBarController id="KRJ-WT-ppA" sceneMemberID="viewController">
+                <tabBarController id="KRJ-WT-ppA" customClass="TabBarViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="tjf-YX-6Ig"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9lw-Oz-cYK">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>

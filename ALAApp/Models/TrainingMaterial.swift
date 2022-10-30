@@ -5,12 +5,10 @@
 //  Created by Айтолкун Анарбекова on 26/10/22.
 //
 
-// Модель. Вариант номер 1. По аналогии с КонтактЛистом
-
 struct Book {
-    let chapter: String // потому что доступ напрямую
-    let subShapter: [String] //потому что массив в массиве
-    let content: [String] //потому что массив в массиве
+    let chapter: String
+    let subChapter: [String]
+    let content: [String]
     
     static func getBook() -> [Book] {
         let book = DataStore.shared
@@ -25,7 +23,7 @@ struct Book {
             books.append(
                 Book(
                     chapter: chapter[index],
-                    subShapter: subChapter[index],
+                    subChapter: subChapter[index],
                     content: content[index]
                 )
             )
