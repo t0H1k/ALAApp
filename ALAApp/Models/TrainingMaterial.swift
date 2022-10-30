@@ -5,55 +5,31 @@
 //  Created by Айтолкун Анарбекова on 26/10/22.
 //
 
-struct ChapterBook {
-    
-    let chapter: String
-    
-    static func getChapter() -> [ChapterBook] {
-        
-        let chapterBook = DataStore()
-        let chapter = chapterBook.chapter
-        
-        var chapters: [ChapterBook] = []
-        
-        for data in 0..<chapter.count {
-            chapters.append(
-                ChapterBook(
-                    chapter: chapter[data]
-                )
-            )
-        }
-        return chapters
-    }
-}
+// Модель. Вариант номер 1. По аналогии с КонтактЛистом
 
-struct SubChapterBook {
+struct Book {
+    let chapter: String // потому что доступ напрямую
+    let subShapter: [String] //потому что массив в массиве
+    let content: [String] //потому что массив в массиве
     
-    let subChapter: String
-    let nameSubChapter: String
-    
-    var fullNameOfSubChapter: String {
-        "\(subChapter) \(nameSubChapter)"
-    }
-    
-    
-    static func getSubChapter() -> [SubChapterBook] {
+    static func getBook() -> [Book] {
+        let book = DataStore.shared
         
-        let chapterBook = DataStore()
+        let chapter = book.chapter
+        let subChapter = book.subChapter
+        let content = book.content
         
-        let subChapter = chapterBook.subChapter
-        let nameSubChapter = chapterBook.nameSubChapter
+        var books: [Book] = []
         
-        var subChapters: [SubChapterBook] = []
-        
-        for data in 0..<subChapter.count {
-            subChapters.append(
-                SubChapterBook(
-                    subChapter: subChapter[data],
-                    nameSubChapter: nameSubChapter[data]
+        for index in 0..<book.chapter.count {
+            books.append(
+                Book(
+                    chapter: chapter[index],
+                    subShapter: subChapter[index],
+                    content: content[index]
                 )
             )
         }
-        return subChapters
+        return books
     }
 }
