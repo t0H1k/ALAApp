@@ -28,6 +28,9 @@ class TeamInfoViewController: UIViewController {
         }
     }
     
+    
+    
+    var conflict: Team!
     var team: Team!
     
     @IBOutlet var aitolkunLabel: UILabel!
