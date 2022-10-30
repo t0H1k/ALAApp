@@ -31,17 +31,17 @@ class TeamInfoViewController: UIViewController {
     @IBOutlet var aitolkunLabel: UILabel!
     @IBOutlet var leonidLabel: UILabel!
     @IBOutlet var antonLabel: UILabel!
-    
-    var team: Team!
+//
+//    var team: Team!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        aitolkunPhoto.image = UIImage(named: team.aitolkunPhoto)
-        leonidPhoto.image = UIImage(named: team.leonidPhoto)
-        antonPhoto.image = UIImage(named: team.antonPhoto)
-        aitolkunLabel.text = team.aitolkun
-        leonidLabel.text = team.leonid
-        antonLabel.text = team.anton
+        view.addVerticalGradientLayer()
+        aitolkunPhoto.image = UIImage(named: "Aitolkun")
+        leonidPhoto.image = UIImage(named: "Leonid")
+        antonPhoto.image = UIImage(named: "Anton")
+        aitolkunLabel.text = "Айтолкун Анарбекова"
+        leonidLabel.text = "Леонид Горбунов"
+        antonLabel.text = "Антон Боев"
     }
 }

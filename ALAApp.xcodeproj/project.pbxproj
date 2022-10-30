@@ -11,6 +11,10 @@
 		835405742909278300231287 /* TrainingMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405732909278300231287 /* TrainingMaterial.swift */; };
 		835405762909279D00231287 /* SubChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405752909279D00231287 /* SubChapterViewController.swift */; };
 		83540578290927BA00231287 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83540577290927BA00231287 /* ChapterViewController.swift */; };
+		83D0ECD8290EC006004090DE /* SetBackColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0ECD7290EC006004090DE /* SetBackColor.swift */; };
+		83D0ECDB290EC36F004090DE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0ECDA290EC36F004090DE /* StartViewController.swift */; };
+		83D0ECDD290EC384004090DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0ECDC290EC384004090DE /* SecondViewController.swift */; };
+		83D0ECDF290EC391004090DE /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0ECDE290EC391004090DE /* TestViewController.swift */; };
 		83DEB807290ABECD00283AE9 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB806290ABECD00283AE9 /* QuestionsViewController.swift */; };
 		83DEB809290ABEDD00283AE9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB808290ABEDD00283AE9 /* ResultViewController.swift */; };
 		83DEB80B290BDBAF00283AE9 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB80A290BDBAF00283AE9 /* Questions.swift */; };
@@ -29,6 +33,10 @@
 		835405732909278300231287 /* TrainingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMaterial.swift; sourceTree = "<group>"; };
 		835405752909279D00231287 /* SubChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubChapterViewController.swift; sourceTree = "<group>"; };
 		83540577290927BA00231287 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
+		83D0ECD7290EC006004090DE /* SetBackColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetBackColor.swift; sourceTree = "<group>"; };
+		83D0ECDA290EC36F004090DE /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		83D0ECDC290EC384004090DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		83D0ECDE290EC391004090DE /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		83DEB806290ABECD00283AE9 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		83DEB808290ABEDD00283AE9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		83DEB80A290BDBAF00283AE9 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
@@ -83,6 +91,9 @@
 				8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */,
 				83DEB806290ABECD00283AE9 /* QuestionsViewController.swift */,
 				83DEB808290ABEDD00283AE9 /* ResultViewController.swift */,
+				83D0ECDA290EC36F004090DE /* StartViewController.swift */,
+				83D0ECDC290EC384004090DE /* SecondViewController.swift */,
+				83D0ECDE290EC391004090DE /* TestViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -103,6 +114,14 @@
 				83DEB80A290BDBAF00283AE9 /* Questions.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		83D0ECD9290EC017004090DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				83D0ECD7290EC006004090DE /* SetBackColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		8ECAC7B829088482006ED408 = {
@@ -127,6 +146,7 @@
 				8354056F2909249500231287 /* App */,
 				8354057A290927DE00231287 /* Services */,
 				8354057B290927E900231287 /* Models */,
+				83D0ECD9290EC017004090DE /* Extension */,
 				83540579290927CC00231287 /* ViewControllers */,
 				83540570290924E700231287 /* Storyboard */,
 				8ECAC7CD29088486006ED408 /* Assets.xcassets */,
@@ -206,8 +226,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB471932909C84A00811312 /* DetailsSubChapterViewController.swift in Sources */,
+				83D0ECDB290EC36F004090DE /* StartViewController.swift in Sources */,
+				83D0ECDF290EC391004090DE /* TestViewController.swift in Sources */,
 				8EFFF19F290E8CFB0091D4B9 /* TeamInfoViewController.swift in Sources */,
+				83D0ECDD290EC384004090DE /* SecondViewController.swift in Sources */,
 				835405742909278300231287 /* TrainingMaterial.swift in Sources */,
+				83D0ECD8290EC006004090DE /* SetBackColor.swift in Sources */,
 				83DEB807290ABECD00283AE9 /* QuestionsViewController.swift in Sources */,
 				83DEB80B290BDBAF00283AE9 /* Questions.swift in Sources */,
 				8ECAC7C529088483006ED408 /* AppDelegate.swift in Sources */,
