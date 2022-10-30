@@ -36,7 +36,6 @@ class SubChapterViewController: UITableViewController {
         dismiss(animated: true)
     }
     
-    
     // MARK: - Navigation
     
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
