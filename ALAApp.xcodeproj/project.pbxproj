@@ -10,7 +10,7 @@
 		835405722909266B00231287 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405712909266B00231287 /* DataStore.swift */; };
 		835405742909278300231287 /* TrainingMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405732909278300231287 /* TrainingMaterial.swift */; };
 		835405762909279D00231287 /* SubChapterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405752909279D00231287 /* SubChapterTableViewController.swift */; };
-		83540578290927BA00231287 /* ChapterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83540577290927BA00231287 /* ChapterViewController.swift */; };
+		83540578290927BA00231287 /* ChapterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83540577290927BA00231287 /* ChapterTableViewController.swift */; };
 		83D0ECD8290EC006004090DE /* SetBackColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0ECD7290EC006004090DE /* SetBackColor.swift */; };
 		83D0ECDB290EC36F004090DE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0ECDA290EC36F004090DE /* StartViewController.swift */; };
 		83D0ECDD290EC384004090DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0ECDC290EC384004090DE /* SecondViewController.swift */; };
