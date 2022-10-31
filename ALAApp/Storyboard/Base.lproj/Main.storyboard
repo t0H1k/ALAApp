@@ -608,7 +608,7 @@
             </objects>
             <point key="canvasLocation" x="3545" y="-412"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Подглавы-->
         <scene sceneID="5p2-jf-NFh">
             <objects>
                 <tableViewController id="HDh-By-iWr" customClass="SubChapterTableViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -634,7 +634,7 @@
                             <outlet property="delegate" destination="HDh-By-iWr" id="DD7-ba-3cY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="6eB-Yz-mGr">
+                    <navigationItem key="navigationItem" title="Подглавы" id="6eB-Yz-mGr">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="qMt-fo-Z7h">
                             <connections>
                                 <action selector="backButton:" destination="HDh-By-iWr" id="Yu0-E2-XUm"/>
@@ -646,7 +646,7 @@
             </objects>
             <point key="canvasLocation" x="941" y="-22"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Главы-->
         <scene sceneID="Pa6-2b-WJ1">
             <objects>
                 <tableViewController id="eq1-5F-Sde" customClass="ChapterTableViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -672,7 +672,7 @@
                             <outlet property="delegate" destination="eq1-5F-Sde" id="PuH-h1-2zH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="MCJ-k4-Idu">
+                    <navigationItem key="navigationItem" title="Главы" id="MCJ-k4-Idu">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="LrW-Q4-vcX">
                             <connections>
                                 <action selector="backButton:" destination="eq1-5F-Sde" id="jKO-cJ-dWN"/>
