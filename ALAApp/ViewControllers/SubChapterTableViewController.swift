@@ -9,6 +9,8 @@ import UIKit
 
 class SubChapterTableViewController: UITableViewController {
     
+    
+    
     var subChapter: [String] = []
     
     override func viewDidLoad() {
@@ -30,10 +32,11 @@ class SubChapterTableViewController: UITableViewController {
         cell.textLabel?.text = subChapter
         return cell
     }
-
     
     @IBAction func backButton(_ sender: Any) {
         dismiss(animated: true)
     }
     
+    
 }
+

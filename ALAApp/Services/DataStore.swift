@@ -8,8 +8,6 @@
 
 class DataStore {
     
-    static let shared = DataStore()
-    
     let chapter = [
         "Глава 13",
         "Глава 14",
@@ -65,7 +63,5 @@ class DataStore {
             "15.4 to be continued"
         ]
     ]
-    
-    private init() {}
 }
 
