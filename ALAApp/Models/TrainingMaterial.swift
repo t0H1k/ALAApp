@@ -11,7 +11,7 @@ struct Book {
     let content: [String]
     
     static func getBook() -> [Book] {
-        let book = DataStore.shared
+        let book = DataStore()
         
         let chapter = book.chapter
         let subChapter = book.subChapter

@@ -72,8 +72,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="yvG-dg-jme"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="Hra-s8-lP3"/>
                                                         </connections>
@@ -81,7 +81,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuH-Tk-MNI">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -96,8 +96,8 @@
                                                             <constraint firstAttribute="height" constant="39" id="hxI-Y3-A1S"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="184-wD-Wfg"/>
                                                         </connections>
@@ -105,7 +105,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMy-Ge-NKr">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -120,8 +120,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="pnS-Ie-2l9"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="Qfc-NT-swn"/>
                                                         </connections>
@@ -129,7 +129,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXr-FG-yPf">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -154,8 +154,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="vhb-tQ-ySz"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="TCl-Z8-xJY"/>
                                                         </connections>
@@ -163,7 +163,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xz9-XC-MXC">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -178,8 +178,8 @@
                                                             <constraint firstAttribute="height" constant="39" id="g6r-wK-Poy"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="kkz-t2-Ull"/>
                                                         </connections>
@@ -187,7 +187,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFq-Eh-4WL">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -202,8 +202,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="R4N-AK-Ncw"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="pEY-FD-VDh"/>
                                                         </connections>
@@ -211,7 +211,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHC-VP-KKU">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -236,8 +236,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="fav-nE-z1d"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="JJd-15-IoY"/>
                                                         </connections>
@@ -245,7 +245,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUK-Kd-BiY">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -260,8 +260,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="Aji-vC-cx8"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="nMM-cV-irH"/>
                                                         </connections>
@@ -269,7 +269,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLo-rD-xXY">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -284,8 +284,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="hyd-U2-u6O"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="dGG-tq-c8d"/>
                                                         </connections>
@@ -293,7 +293,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3y-j5-dGQ">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -318,8 +318,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="awH-Eu-BXh"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="2L8-an-ThS"/>
                                                         </connections>
@@ -327,7 +327,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qj-vj-czk">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -342,8 +342,8 @@
                                                             <constraint firstAttribute="height" constant="39" id="8NK-nO-DzZ"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="Anm-M6-KQz"/>
                                                         </connections>
@@ -351,7 +351,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj5-7R-V9b">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -366,8 +366,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="xBo-dG-CJH"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="l3m-xa-hOC"/>
                                                         </connections>
@@ -375,7 +375,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znP-7v-hWB">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -400,8 +400,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="kyS-K2-wwc"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="Ean-Hx-VG6"/>
                                                         </connections>
@@ -409,7 +409,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWj-lb-I3z">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -424,8 +424,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="sc7-q9-bjf"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="ndw-H9-eui"/>
                                                         </connections>
@@ -433,7 +433,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34r-Nh-qFg">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -448,8 +448,8 @@
                                                             <constraint firstAttribute="width" constant="39" id="NxT-oG-OBg"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="1" image="radio-button"/>
-                                                        <state key="selected" image="radio"/>
+                                                        <state key="normal" title="1" image="radio 1"/>
+                                                        <state key="selected" image="radio (1)"/>
                                                         <connections>
                                                             <action selector="radioButtonSelected:" destination="JHO-pb-mND" eventType="touchUpInside" id="ZTI-g7-cPH"/>
                                                         </connections>
@@ -457,7 +457,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zD-EM-Agv">
                                                         <rect key="frame" x="47" y="0.0" width="46" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -608,7 +608,7 @@
             </objects>
             <point key="canvasLocation" x="3545" y="-412"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Подглавы-->
         <scene sceneID="5p2-jf-NFh">
             <objects>
                 <tableViewController id="HDh-By-iWr" customClass="SubChapterTableViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -634,7 +634,7 @@
                             <outlet property="delegate" destination="HDh-By-iWr" id="DD7-ba-3cY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="6eB-Yz-mGr">
+                    <navigationItem key="navigationItem" title="Подглавы" id="6eB-Yz-mGr">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="qMt-fo-Z7h">
                             <connections>
                                 <action selector="backButton:" destination="HDh-By-iWr" id="Yu0-E2-XUm"/>
@@ -646,7 +646,7 @@
             </objects>
             <point key="canvasLocation" x="941" y="-22"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Главы-->
         <scene sceneID="Pa6-2b-WJ1">
             <objects>
                 <tableViewController id="eq1-5F-Sde" customClass="ChapterTableViewController" customModule="ALAApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -672,7 +672,7 @@
                             <outlet property="delegate" destination="eq1-5F-Sde" id="PuH-h1-2zH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="MCJ-k4-Idu">
+                    <navigationItem key="navigationItem" title="Главы" id="MCJ-k4-Idu">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="LrW-Q4-vcX">
                             <connections>
                                 <action selector="backButton:" destination="eq1-5F-Sde" id="jKO-cJ-dWN"/>
@@ -693,13 +693,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thp-S3-YpR">
-                                <rect key="frame" x="69.5" y="435" width="181" height="53"/>
+                                <rect key="frame" x="58" y="433" width="204.5" height="55"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="ПОЕХАЛИ!">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.86641808710000001" green="0.32053346553684259" blue="0.86612172830017065" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="filled" title="ПОЕХАЛИ!">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="34"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.47843137254901963" blue="1" alpha="0.39820467715231789" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="CKi-1y-Sjm" kind="presentation" modalPresentationStyle="fullScreen" id="J3Y-Rp-QAI"/>
                                 </connections>
@@ -760,33 +765,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="тут будет про приложение о чем это и что это дает   навигация и тд" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-Hy-oaL">
-                                <rect key="frame" x="50" y="50" width="220" height="173.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Мы хотим помочь начинающим разработчикам, сделать уверенные шаги на пути изучения Swift. Поэтому ловите гайд!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-Hy-oaL">
+                                <rect key="frame" x="50" y="50" width="220" height="214.5"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="khL-cb-v3S">
-                                <rect key="frame" x="126.5" y="354" width="67" height="114"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Cke-9N-zj6">
+                                <rect key="frame" x="94.5" y="359" width="131" height="123"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooy-np-C6u">
-                                        <rect key="frame" x="0.0" y="0.0" width="67" height="42"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooy-np-C6u">
+                                        <rect key="frame" x="0.0" y="0.0" width="131" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49" id="cNX-Bz-Yfg"/>
+                                        </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Книга">
+                                        <state key="normal" title="Гайд">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <buttonConfiguration key="configuration" style="filled" title="Гайд">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" red="0.0" green="0.47843137254901963" blue="1" alpha="0.40174875827814571" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <segue destination="FI4-be-g1i" kind="presentation" modalPresentationStyle="fullScreen" id="303-0T-fld"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuk-ia-5nZ">
-                                        <rect key="frame" x="0.0" y="72" width="67" height="42"/>
+                                        <rect key="frame" x="0.0" y="74" width="131" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49" id="QT6-4H-IEu"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="o нас">
+                                        <state key="normal" title="O нас">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <buttonConfiguration key="configuration" style="filled" title="O нас">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" red="0.0" green="0.47843137254901963" blue="1" alpha="0.39835989238410596" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <segue destination="jUg-EH-Eka" kind="show" id="1Na-2v-QJm"/>
                                         </connections>
@@ -795,20 +815,21 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sxc-vX-qbL"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Sxc-vX-qbL" firstAttribute="bottom" secondItem="khL-cb-v3S" secondAttribute="bottom" constant="100" id="2PH-dT-dYH"/>
                             <constraint firstAttribute="trailing" secondItem="DYy-Hy-oaL" secondAttribute="trailing" constant="50" id="5Ak-dq-NKf"/>
+                            <constraint firstItem="Sxc-vX-qbL" firstAttribute="bottom" secondItem="Cke-9N-zj6" secondAttribute="bottom" constant="86" id="Ez2-kM-bCE"/>
+                            <constraint firstItem="Sxc-vX-qbL" firstAttribute="trailing" secondItem="Cke-9N-zj6" secondAttribute="trailing" constant="94.5" id="HG0-bc-Ncd"/>
+                            <constraint firstItem="Cke-9N-zj6" firstAttribute="leading" secondItem="Sxc-vX-qbL" secondAttribute="leading" constant="94.5" id="N1m-so-pzc"/>
                             <constraint firstItem="DYy-Hy-oaL" firstAttribute="leading" secondItem="Sxc-vX-qbL" secondAttribute="leading" constant="50" id="d9w-vj-ItM"/>
                             <constraint firstItem="DYy-Hy-oaL" firstAttribute="top" secondItem="Sxc-vX-qbL" secondAttribute="top" constant="50" id="iC6-X3-0fm"/>
-                            <constraint firstItem="khL-cb-v3S" firstAttribute="centerX" secondItem="Aeu-xe-kxh" secondAttribute="centerX" id="lXL-6N-Cuz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="B3G-Xe-mv4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNi-My-x37" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1775" y="-22"/>
+            <point key="canvasLocation" x="-1775.625" y="-22.183098591549296"/>
         </scene>
         <!--Team Info View Controller-->
         <scene sceneID="Omx-YR-379">
@@ -955,8 +976,8 @@
     </scenes>
     <resources>
         <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="radio" width="512" height="512"/>
-        <image name="radio-button" width="512" height="512"/>
+        <image name="radio (1)" width="512" height="512"/>
+        <image name="radio 1" width="512" height="512"/>
         <image name="testtube.2" catalog="system" width="128" height="119"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
