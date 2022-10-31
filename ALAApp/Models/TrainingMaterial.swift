@@ -13,7 +13,7 @@ struct Book {
     let content: [String] //потому что массив в массиве
     
     static func getBook() -> [Book] {
-        let book = DataStore.shared
+        let book = DataStore()
         
         let chapter = book.chapter
         let subChapter = book.subChapter

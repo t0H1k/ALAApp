@@ -11,11 +11,9 @@ class DetailsSubChapterViewController: UIViewController {
 
     @IBOutlet var descriptionLabel: UILabel!
     
-    //let content = Content.getContent()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-//        title = detailChapter.subChapter
-//        descriptionLabel.text = "\(detailChapter.detailchapter)"
+//        descriptionLabel.text = content
     }
 }
