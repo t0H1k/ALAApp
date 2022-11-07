@@ -50,7 +50,7 @@ class ChapterTableViewController: UITableViewController {
 
         let subChapterTVC = segue.destination as? SubChapterTableViewController
 
-        subChapterTVC?.subChapter = selectedChapter.subChapter
+        subChapterTVC?.subChapterStr = selectedChapter.subChapterStr
         
     }
 }

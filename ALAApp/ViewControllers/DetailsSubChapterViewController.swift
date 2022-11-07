@@ -11,13 +11,10 @@ class DetailsSubChapterViewController: UIViewController {
     
     @IBOutlet var descriptionLabel: UILabel!
     
-    var content: [String] = []
+    var content: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        descriptionLabel.text = "\(content)" //нерабочий вариант
-        //либо через цикл делать
-        
+        descriptionLabel.text = content
     }
 }

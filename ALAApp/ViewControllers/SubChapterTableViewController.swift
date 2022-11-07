@@ -9,9 +9,9 @@ import UIKit
 
 class SubChapterTableViewController: UITableViewController {
     
-    let chapterBook = Book.getBook()
-    var subChapter: [String] = []
-    
+    //let chapterBook = Book.getBook() не нужно
+    var subChapterStr: [String] = []
+    //var subChapter = SubChapter.getSubChapter() не нужно
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +21,13 @@ class SubChapterTableViewController: UITableViewController {
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        subChapter.count
+        subChapterStr.count
         
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "subChapter", for: indexPath)
-        let subChapter = subChapter[indexPath.row]
+        let subChapter = subChapterStr[indexPath.row]
         var content = cell.defaultContentConfiguration()
         content.text = subChapter
         cell.contentConfiguration = content
@@ -47,13 +47,11 @@ class SubChapterTableViewController: UITableViewController {
 
         guard let selectedRow = indexPath?.row else { return }
 
-        let selectedSubChapter = chapterBook[selectedRow]
+        let selectedSubChapter = subChapterStr[selectedRow]
 
-        let tabBarVC = segue.destination as? TabBarViewController
-
-        tabBarVC?.content = selectedSubChapter.content
-    
+        let detailSubChapterVC = segue.destination as? DetailsSubChapterViewController
+        
+        //detailSubChapterVC?.content = subChapterStr.randomElement() вот тут проблема, даже рандомный не передает
     }
-    
 }
 

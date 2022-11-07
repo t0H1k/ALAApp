@@ -24,10 +24,10 @@ class TabBarViewController: UITabBarController {
 
     
     // MARK: - Navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let detailsVC = segue.destination as? DetailsSubChapterViewController else { return }
-        detailsVC.content = content
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        guard let detailsVC = segue.destination as? DetailsSubChapterViewController else { return }
+//        detailsVC.content = content
+//    }
 
 
 }
