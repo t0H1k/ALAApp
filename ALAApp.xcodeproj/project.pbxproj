@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B67E9D290F00E600407281 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B67E9C290F00E600407281 /* TabBarViewController.swift */; };
 		835405722909266B00231287 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405712909266B00231287 /* DataStore.swift */; };
 		835405742909278300231287 /* TrainingMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405732909278300231287 /* TrainingMaterial.swift */; };
 		835405762909279D00231287 /* SubChapterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835405752909279D00231287 /* SubChapterTableViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52B67E9C290F00E600407281 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		835405712909266B00231287 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		835405732909278300231287 /* TrainingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMaterial.swift; sourceTree = "<group>"; };
 		835405752909279D00231287 /* SubChapterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubChapterTableViewController.swift; sourceTree = "<group>"; };
@@ -85,8 +87,8 @@
 		83540579290927CC00231287 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				83540577290927BA00231287 /* ChapterTableViewController.swift */,
 				8EFFF19E290E8CFB0091D4B9 /* TeamInfoViewController.swift */,
+				83540577290927BA00231287 /* ChapterTableViewController.swift */,
 				835405752909279D00231287 /* SubChapterTableViewController.swift */,
 				8EB471922909C84A00811312 /* DetailsSubChapterViewController.swift */,
 				83DEB806290ABECD00283AE9 /* QuestionsViewController.swift */,
@@ -150,6 +152,7 @@
 				83540579290927CC00231287 /* ViewControllers */,
 				83540570290924E700231287 /* Storyboard */,
 				8ECAC7CD29088486006ED408 /* Assets.xcassets */,
+				52B67E9C290F00E600407281 /* TabBarViewController.swift */,
 			);
 			path = ALAApp;
 			sourceTree = "<group>";
@@ -225,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D0ECE8290F9FE9004090DE /* TabBarViewController.swift in Sources */,
+				52B67E9D290F00E600407281 /* TabBarViewController.swift in Sources */,
 				8EB471932909C84A00811312 /* DetailsSubChapterViewController.swift in Sources */,
 				83D0ECDB290EC36F004090DE /* StartViewController.swift in Sources */,
 				83D0ECDF290EC391004090DE /* TestViewController.swift in Sources */,

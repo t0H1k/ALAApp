@@ -8,12 +8,13 @@
 import UIKit
 
 class DetailsSubChapterViewController: UIViewController {
-
+    
     @IBOutlet var descriptionLabel: UILabel!
     
-
+    var content: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        descriptionLabel.text = content
+        descriptionLabel.text = content
     }
 }
